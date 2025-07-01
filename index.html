@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TotalBattery - Indie Games</title>
     <style>
+        /* ===== 기본 설정 ===== */
         body {
             background-color: #161b20;
             color: #ddd;
@@ -17,6 +18,8 @@
             max-width: 1200px;
             margin: auto;
         }
+
+        /* ===== 언어 선택 ===== */
         .language-selector {
             position: absolute; /* 절대 위치 설정 */
             top: 10px; /* 상단 여백 */
@@ -33,9 +36,8 @@
         .language-selector a.active {
             text-decoration: underline;
         }
-        /* h1{
-            margin-top: 50px;
-        } */
+        
+        /* ===== 텍스트 구성 ===== */
         #welcome-text {
             color: #3498db;
         }
@@ -43,25 +45,50 @@
             text-align: left; 
             letter-spacing: 2px
         }
+
+        /* ===== 링크 공통 스타일 ===== */
+        a {
+            color: #f39c12;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== 개별 링크 스타일 ===== */
+        a.platform-link {
+            display: inline-block;
+            margin: 10px 5px 0 5px;
+        }
+
+        a.social-links {
+            color: rgb(151, 151, 151);
+            margin-right: 10px;
+        }
+
+        a.game-links {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        /* ===== 소셜 링크 ===== */
         .social-links {
             /* margin-top: 10px; */
             margin-bottom: 50px;
         }
-        .social-links a {
-            text-decoration: none;
-            color: rgb(151, 151, 151);
-            margin-right: 10px;
-            font-weight: bold; /* 볼드 적용 */
-        }
-        .social-links a:hover {
-            text-decoration: underline;
-        }
+
+        /* ===== 카테고리 타이틀 ===== */
         .category-title{
             margin-top: 60px;
             font-size: 20px;
             font-weight: bold;
             text-align: center;
         }
+
+        /* ===== 카드형 리스트 ===== */
         .util-list {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 800px));
@@ -75,6 +102,8 @@
             gap: 20px;
             margin-top: 20px;
         }
+
+        /* ===== 게임 카드 ===== */
         .game {
             background: #202830;
             padding: 10px;
@@ -95,17 +124,8 @@
             font-weight: bold;
             margin-top: 10px;
         }
-        .game a {
-            display: block;
-            margin-top: 10px;
-            color: #f39c12;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .game a:hover {
-            text-decoration: underline;
-        }
+
+        /* ===== 구분선 및 푸터 ===== */
         hr {
             margin-top: 40px; /* 위쪽 여백 */
             /* margin-bottom: 20px; 아래쪽 여백 */
@@ -141,202 +161,26 @@
         }'><br>Total Battery는 한국, 서울을 기반으로 한 게임 개발 스튜디오입니다. 2014년에 시작되었으며, Game&Watch, Tiger Electronics와 같은 오래된 LCD 스타일 게임을 계속 제작하고 있습니다.<br><br>Total Battery는 심플하고 재미있는 게임을 만들자를 모토로, 복고풍 감성을 담은 게임을 지속적으로 선보이고 있습니다. 또한 Total Battery는 부산 인디 커넥트, 비트서밋, 타이베이 게임 쇼, 도쿄 게임 쇼 등 다양한 해외 게임 컨퍼런스 및 전시회에 꾸준히 참가하고 있습니다.<br><br>Total Battery는 모바일, PC, 콘솔을 포함한 다양한 플랫폼에서의 개발 및 컨버전 경험을 보유하고 있습니다. 게임 제작 제휴 및 비디오 게임 컨버전 작업에 대한 문의는 언제든지 환영합니다.</p>
     
         <div class="social-links">
-            <a href="https://twitter.com/total_battery" target="_blank">↗ X</a>
-            <a href="https://www.facebook.com/totalbattery.gonlee" target="_blank">↗ facebook</a>
-            <a href="https://totalbattery.itch.io" target="_blank">↗ itch.io</a>
-            <a href="mailto:contact@totalbatterygames.com">↗ Email</a>
+            <a href="https://twitter.com/total_battery" target="_blank" class="social-links">↗ X</a>
+            <a href="https://www.facebook.com/totalbattery.gonlee" target="_blank" class="social-links">↗ facebook</a>
+            <a href="https://totalbattery.itch.io" target="_blank" class="social-links">↗ itch.io</a>
+            <a href="mailto:contact@totalbatterygames.com" class="social-links">↗ Email</a>
         </div>
 
         <h3 class="category-title" data-lang='{
-            "ko": "🕹️ 게임",
+            "ko": "🕹️ 제작게임",
             "en": "🕹️ GAMES",
             "ja": "🕹️ ゲーム"
-        }'>🕹️ 게임</h3>
+        }'>🕹️ 제작게임</h3>       
+        <div class="game-list"></div>
+
+        <h3 class="category-title" data-lang='{
+            "ko": "🎮 게임포팅",
+            "en": "🎮 PORTING",
+            "ja": "🎮 ポーティング"
+        }'>🎮 게임포팅</h3>
         
-        <div class="game-list">
-             <div class="game">
-                <img src="images/logo_spartan_z.png" alt="nowNote">
-                <div class="game-title" data-lang='{
-                    "ko": "스파르탄Z",
-                    "en": "SpartanZ",
-                    "ja": "スパルタンZ"
-                }'>스파르탄Z</div>
-                <a href="https://totalbattery.itch.io/sprtan-z" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_pixels.png" alt="Pixels">
-                <div class="game-title" data-lang='{
-                    "ko": "픽셀즈",
-                    "en": "Pixels",
-                    "ja": "ピクセルズ"
-                }'>픽셀즈</div>
-                <a href="https://play.google.com/store/apps/details?id=com.totalbattery.pixel" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_ifo_plydate.png" alt="IFO for Playdate">
-                <div class="game-title" data-lang='{
-                    "ko": "IFO for Playdate",
-                    "en": "IFO for Playdate",
-                    "ja": "IFO for Playdate"
-                }'>IFO for Playdate</div>
-                <a href="https://totalbattery.itch.io/crankyifo" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_ifo.png" alt="IFO">
-                <div class="game-title" data-lang='{
-                    "ko": "IFO",
-                    "en": "IFO",
-                    "ja": "IFO"
-                }'>IFO</div>
-                <a href="https://totalbattery.itch.io/ifo" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_sh50.png" alt="Space Hero 50">
-                <div class="game-title" data-lang='{
-                    "ko": "스페이스 히어로 50",
-                    "en": "Space Hero 50",
-                    "ja": "スペースヒーロー50"
-                }'>스페이스 히어로 50</div>
-                <a href="https://totalbattery.itch.io/space-hero-50" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_taptap.png" alt="Tap Tap Tank">
-                <div class="game-title" data-lang='{
-                    "ko": "탱크 키우기",
-                    "en": "Tap Tap Tank",
-                    "ja": "タップ・タップ・タンク"
-                }'>탱크 키우기</div>
-                <a href="https://play.google.com/store/apps/details?id=com.Dontworry.tank&hl=en-US" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_meteor.png" alt="YUSEONG">
-                <div class="game-title" data-lang='{
-                    "ko": "유성",
-                    "en": "YUSEONG",
-                    "ja": "流星"
-                }'>유성</div>
-                <a href="https://totalbatterystudio.blogspot.com/2021/08/yuseong.html" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_bloom.png" alt="BloomPixel">
-                <div class="game-title" data-lang='{
-                    "ko": "BloomPixel",
-                    "en": "BloomPixel",
-                    "ja": "BloomPixel"
-                }'>BloomPixel</div>
-                <a href="https://totalbatterystudio.blogspot.com/2021/08/bloompixel-neon-snake.html" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_knight.png" alt="Tales of a Knight">
-                <div class="game-title" data-lang='{
-                    "ko": "기사 이야기",
-                    "en": "Tales of a Knight",
-                    "ja": "ナイト物語"
-                }'>기사 이야기</div>
-                <a href="https://totalbatterystudio.blogspot.com/2021/08/nightmare-f-adventure-of-devil-land.html" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_drive.png" alt="BAMMASIL">
-                <div class="game-title" data-lang='{
-                    "ko": "밤마실 - 한밤의 드라이브",
-                    "en": "BAMMASIL - Midnight Drive",
-                    "ja": "ナイトラン - 深夜のドライブ"
-                }'>밤마실 - 한밤의 드라이브</div>
-                <a href="https://totalbatterystudio.blogspot.com/2021/08/bammasil-midnight-drive.html" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_pong.png" alt="iPongX">
-                <div class="game-title" data-lang='{
-                    "ko": "iPongX",
-                    "en": "iPongX",
-                    "ja": "iPongX"
-                }'>iPongX</div>
-                <a href="https://apps.apple.com/us/app/ipongx/id1452785447" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_jtf.png" alt="Jack The Fist">
-                <div class="game-title" data-lang='{
-                    "ko": "잭 더 피스트",
-                    "en": "Jack The Fist",
-                    "ja": "ジャック・ザ・フィスト"
-                }'>잭 더 피스트</div>
-                <a href="https://totalbattery.itch.io/jtf" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_box.png" alt="The Boxing">
-                <div class="game-title" data-lang='{
-                    "ko": "복싱",
-                    "en": "The Boxing",
-                    "ja": "ボクシング"
-                }'>복싱</div>
-                <a href="https://totalbattery.itch.io/the-boxing" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-            <div class="game">
-                <img src="images/logo_santa.png" alt="I Hate Santa!">
-                <div class="game-title" data-lang='{
-                    "ko": "나는 산타가 싫다!",
-                    "en": "I Hate Santa!",
-                    "ja": "俺はサンタが大嫌いだ！"
-                }'>나는 산타가 싫다!</div>
-                <a href="https://totalbattery.itch.io/i-hate-santa" target="_blank" data-lang='{
-                    "ko": "자세히 보기",
-                    "en": "More Info",
-                    "ja": "詳細を見る"
-                }'>자세히 보기</a>
-            </div>
-        </div>
+        <div class="game-list" id="project-list"></div>
 
         <h3 class="category-title" data-lang='{
             "ko": "🧰 유틸리티",
@@ -351,7 +195,7 @@
                     "en": "nowNote",
                     "ja": "いまメモ"
                 }'>지금메모</div>
-                <a href="https://apps.apple.com/kr/app/%EC%A7%80%EA%B8%88%EB%A9%94%EB%AA%A8/id6475732731" target="_blank" data-lang='{
+                <a href="https://apps.apple.com/kr/app/%EC%A7%80%EA%B8%88%EB%A9%94%EB%AA%A8/id6475732731" target="_blank" class="game-links" data-lang='{
                     "ko": "자세히 보기",
                     "en": "More Info",
                     "ja": "詳細を見る"
@@ -377,6 +221,192 @@
                 el.innerHTML = translations[lang];
             });
         }
+
+        const games = [
+            {
+                title: { ko: "스파르탄Z", en: "SpartanZ", ja: "スパルタンZ" },
+                img: "images/logo_spartan_z.png",
+                alt: "SpartanZ",
+                link: "https://totalbattery.itch.io/sprtan-z"
+            },
+            {
+                title: { ko: "픽셀즈", en: "Pixels", ja: "ピクセルズ" },
+                img: "images/logo_pixels.png",
+                alt: "Pixels",
+                link: "https://play.google.com/store/apps/details?id=com.totalbattery.pixel"
+            },
+            {
+                title: { ko: "IFO for Playdate", en: "IFO for Playdate", ja: "IFO for Playdate" },
+                img: "images/logo_ifo_plydate.png",
+                alt: "IFO for Playdate",
+                link: "https://totalbattery.itch.io/crankyifo"
+            },
+            {
+                title: { ko: "IFO", en: "IFO", ja: "IFO" },
+                img: "images/logo_ifo.png",
+                alt: "IFO",
+                link: "https://totalbattery.itch.io/ifo"
+            },
+            {
+                title: { ko: "스페이스 히어로 50", en: "Space Hero 50", ja: "スペースヒーロー50" },
+                img: "images/logo_sh50.png",
+                alt: "Space Hero 50",
+                link: "https://totalbattery.itch.io/space-hero-50"
+            },
+            {
+                title: { ko: "탱크 키우기", en: "Tap Tap Tank", ja: "タップ・タップ・タンク" },
+                img: "images/logo_taptap.png",
+                alt: "Tap Tap Tank",
+                link: "https://play.google.com/store/apps/details?id=com.Dontworry.tank&hl=en-US"
+            },
+            {
+                title: { ko: "유성", en: "YUSEONG", ja: "流星" },
+                img: "images/logo_meteor.png",
+                alt: "YUSEONG",
+                link: "https://totalbatterystudio.blogspot.com/2021/08/yuseong.html"
+            },
+            {
+                title: { ko: "BloomPixel", en: "BloomPixel", ja: "BloomPixel" },
+                img: "images/logo_bloom.png",
+                alt: "BloomPixel",
+                link: "https://totalbatterystudio.blogspot.com/2021/08/bloompixel-neon-snake.html"
+            },
+            {
+                title: { ko: "기사 이야기", en: "Tales of a Knight", ja: "ナイト物語" },
+                img: "images/logo_knight.png",
+                alt: "Tales of a Knight",
+                link: "https://totalbatterystudio.blogspot.com/2021/08/nightmare-f-adventure-of-devil-land.html"
+            },
+            {
+                title: { ko: "밤마실 - 한밤의 드라이브", en: "BAMMASIL - Midnight Drive", ja: "ナイトラン - 深夜のドライブ" },
+                img: "images/logo_drive.png",
+                alt: "BAMMASIL",
+                link: "https://totalbatterystudio.blogspot.com/2021/08/bammasil-midnight-drive.html"
+            },
+            {
+                title: { ko: "iPongX", en: "iPongX", ja: "iPongX" },
+                img: "images/logo_pong.png",
+                alt: "iPongX",
+                link: "https://apps.apple.com/us/app/ipongx/id1452785447"
+            },
+            {
+                title: { ko: "잭 더 피스트", en: "Jack The Fist", ja: "ジャック・ザ・フィスト" },
+                img: "images/logo_jtf.png",
+                alt: "Jack The Fist",
+                link: "https://totalbattery.itch.io/jtf"
+            },
+            {
+                title: { ko: "복싱", en: "The Boxing", ja: "ボクシング" },
+                img: "images/logo_box.png",
+                alt: "The Boxing",
+                link: "https://totalbattery.itch.io/the-boxing"
+            },
+            {
+                title: { ko: "나는 산타가 싫다!", en: "I Hate Santa!", ja: "俺はサンタが大嫌いだ！" },
+                img: "images/logo_santa.png",
+                alt: "I Hate Santa!",
+                link: "https://totalbattery.itch.io/i-hate-santa"
+            }
+        
+        ];
+
+        function createGameElement(game) {
+            const gameDiv = document.createElement("div");
+            gameDiv.classList.add("game");
+
+            gameDiv.innerHTML = `
+                <img src="${game.img}" alt="${game.alt}">
+                <div class="game-title" data-lang='${JSON.stringify(game.title)}'>
+                ${game.title.ko}
+                </div>
+                <a href="${game.link}" target="_blank" class="game-links" data-lang='${JSON.stringify({ko:"자세히 보기", en:"More Info", ja:"詳細を見る"})}'>
+                자세히 보기
+                </a>
+            `;
+
+            return gameDiv;
+        }
+
+        const container = document.querySelector(".game-list");
+        games.forEach(game => {
+            const element = createGameElement(game);
+            container.appendChild(element);
+        });
+
+        const otherProjects = [
+            {
+                title: { ko: "더 램지", en: "The Ramsey", ja: "ザ・ラムジー" },
+                img: "images/logo_theRamsey.jpg",
+                alt: "The Ramsey",
+                platforms: [
+                    { label: "Xbox", url: "https://www.xbox.com/en-US/games/store/the-ramsey/9pgprv2wlc9j" },
+                ]
+            },
+            {
+                title: { ko: "텔레빗", en: "Telebbit", ja: "テレビット" },
+                img: "images/logo_telebbit.jpg",
+                alt: "Telebbit",
+                platforms: [
+                    { label: "Xbox", url: "https://www.xbox.com/ko-kr/games/store/telebbit/9msvrnhgj7dx" },
+                    { label: "PS5", url: "https://store.playstation.com/ko-kr/product/JB0780-PPSA22929_00-0200022057825509" },
+                    { label: "NS", url: "https://store.nintendo.co.kr/70010000086296" }
+                ]
+            },
+            {
+                title: { ko: "지금 우리 학교는", en: "All Of Us Are Dead", ja: "今、私たちの学校は" },
+                img: "images/logo_allOfUsAreDead.jpg",
+                alt: "All Of Us Are Dead",
+                platforms: [
+                    { label: "iOS", url: "https://apps.apple.com/kr/app/%EC%A7%80%EA%B8%88-%EC%9A%B0%EB%A6%AC-%ED%95%99%EA%B5%90%EB%8A%94/id6503680776" },
+                ]
+            },
+            {
+                title: { ko: "큐브나이츠", en: "Cube Knights", ja: "キューブナイツ" },
+                img: "images/logo_cubeKnights.jpg",
+                alt: "Cube Knights",
+                platforms: [
+                    { label: "iOS", url: "https://apps.apple.com/kr/app/%ED%81%90%EB%B8%8C%EB%82%98%EC%9D%B4%EC%B8%A0/id6737216780" },
+                    { label: "Android", url: "https://play.google.com/store/apps/details?id=com.ikinagames.cubeknight&hl=ko" },
+                ]
+            },
+            {
+                title: { ko: "THE STARBITES", en: "THE STARBITES", ja: "THE STARBITES" },
+                img: "images/logo_starbites.jpg",
+                alt: "THE STARBITES",
+                platforms: [
+                    { label: "NS", url: "" },
+                ]
+            },
+        ];
+
+        function createProjectCard(project) {
+            const div = document.createElement("div");
+            div.className = "game";
+
+            // 플랫폼 링크들 동적으로 생성
+            const platformLinks = project.platforms
+                .map(p => `<a href="${p.url}" target="_blank" class="platform-link">${p.label}</a>`)
+                .join(" | ");
+
+            div.innerHTML = `
+                <img src="${project.img}" alt="${project.alt}">
+                <div class="game-title" data-lang='${JSON.stringify(project.title)}'>
+                ${project.title.ko}
+                </div>
+                <div class="platform-links">
+                ${platformLinks}
+                </div>
+            `;
+
+            return div;
+        }
+
+        // 렌더링
+        const projectList = document.getElementById("project-list");
+        otherProjects.forEach(project => {
+            const card = createProjectCard(project);
+            projectList.appendChild(card);
+        });
     </script>
 </body>
 </html>
