@@ -1,0 +1,45 @@
+[
+    {
+        "title": { "ko": "더 램지", "en": "The Ramsey", "ja": "ザ・ラムジー" },
+        "img": "images/logo_theRamsey.jpg",
+        "alt": "The Ramsey",
+        "platforms": [
+            { "label": "Xbox", "url": "https://www.xbox.com/en-US/games/store/the-ramsey/9pgprv2wlc9j" }
+        ]
+    },
+    {
+        "title": { "ko": "텔레빗", "en": "Telebbit", "ja": "テレビット" },
+        "img": "images/logo_telebbit.jpg",
+        "alt": "Telebbit",
+        "platforms": [
+            { "label": "Xbox", "url": "https://www.xbox.com/ko-kr/games/store/telebbit/9msvrnhgj7dx" },
+            { "label": "PS5", "url": "https://store.playstation.com/ko-kr/product/JB0780-PPSA22929_00-0200022057825509" },
+            { "label": "NS", "url": "https://store.nintendo.co.kr/70010000086296" }
+        ]
+    },
+    {
+        "title": { "ko": "지금 우리 학교는", "en": "All Of Us Are Dead", "ja": "今、私たちの学校は" },
+        "img": "images/logo_allOfUsAreDead.jpg",
+        "alt": "All Of Us Are Dead",
+        "platforms": [
+            { "label": "iOS", "url": "https://apps.apple.com/kr/app/%EC%A7%80%EA%B8%88-%EC%9A%B0%EB%A6%AC-%ED%95%99%EA%B5%90%EB%8A%94/id6503680776" }
+        ]
+    },
+    {
+        "title": { "ko": "큐브나이츠", "en": "Cube Knights", "ja": "キューブナイツ" },
+        "img": "images/logo_cubeKnights.jpg",
+        "alt": "Cube Knights",
+        "platforms": [
+            { "label": "iOS", "url": "https://apps.apple.com/kr/app/%ED%81%90%EB%B8%8C%EB%82%98%EC%9D%B4%EC%B8%A0/id6737216780" },
+            { "label": "Android", "url": "https://play.google.com/store/apps/details?id=com.ikinagames.cubeknight&hl=ko" }
+        ]
+    },
+    {
+        "title": { "ko": "THE STARBITES", "en": "THE STARBITES", "ja": "THE STARBITES" },
+        "img": "images/logo_starbites.jpg",
+        "alt": "THE STARBITES",
+        "platforms": [
+            { "label": "NS", "url": "" }
+        ]
+    }
+]

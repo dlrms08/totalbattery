@@ -1,0 +1,87 @@
+ [
+    {
+        "title": { "ko": "스파르탄Z", "en": "SpartanZ", "ja": "スパルタンZ" },
+        "img": "images/logo_spartan_z.png",
+        "alt": "SpartanZ",
+        "link": "https://totalbattery.itch.io/sprtan-z"
+    },
+    {
+        "title": { "ko": "픽셀즈", "en": "Pixels", "ja": "ピクセルズ" },
+        "img": "images/logo_pixels.png",
+        "alt": "Pixels",
+        "link": "https://play.google.com/store/apps/details?id=com.totalbattery.pixel"
+    },
+    {
+        "title": { "ko": "IFO for Playdate", "en": "IFO for Playdate", "ja": "IFO for Playdate" },
+        "img": "images/logo_ifo_plydate.png",
+        "alt": "IFO for Playdate",
+        "link": "https://totalbattery.itch.io/crankyifo"
+    },
+    {
+        "title": { "ko": "IFO", "en": "IFO", "ja": "IFO" },
+        "img": "images/logo_ifo.png",
+        "alt": "IFO",
+        "link": "https://totalbattery.itch.io/ifo"
+    },
+    {
+        "title": { "ko": "스페이스 히어로 50", "en": "Space Hero 50", "ja": "スペースヒーロー50" },
+        "img": "images/logo_sh50.png",
+        "alt": "Space Hero 50",
+        "link": "https://totalbattery.itch.io/space-hero-50"
+    },
+    {
+        "title": { "ko": "탱크 키우기", "en": "Tap Tap Tank", "ja": "タップ・タップ・タンク" },
+        "img": "images/logo_taptap.png",
+        "alt": "Tap Tap Tank",
+        "link": "https://play.google.com/store/apps/details?id=com.Dontworry.tank&hl=en-US"
+    },
+    {
+        "title": { "ko": "유성", "en": "YUSEONG", "ja": "流星" },
+        "img": "images/logo_meteor.png",
+        "alt": "YUSEONG",
+        "link": "https://totalbatterystudio.blogspot.com/2021/08/yuseong.html"
+    },
+    {
+        "title": { "ko": "BloomPixel", "en": "BloomPixel", "ja": "BloomPixel" },
+        "img": "images/logo_bloom.png",
+        "alt": "BloomPixel",
+        "link": "https://totalbatterystudio.blogspot.com/2021/08/bloompixel-neon-snake.html"
+    },
+    {
+        "title": { "ko": "기사 이야기", "en": "Tales of a Knight", "ja": "ナイト物語" },
+        "img": "images/logo_knight.png",
+        "alt": "Tales of a Knight",
+        "link": "https://totalbatterystudio.blogspot.com/2021/08/nightmare-f-adventure-of-devil-land.html"
+    },
+    {
+        "title": { "ko": "밤마실 - 한밤의 드라이브", "en": "BAMMASIL - Midnight Drive", "ja": "ナイトラン - 深夜のドライブ" },
+        "img": "images/logo_drive.png",
+        "alt": "BAMMASIL",
+        "link": "https://totalbatterystudio.blogspot.com/2021/08/bammasil-midnight-drive.html"
+    },
+    {
+        "title": { "ko": "iPongX", "en": "iPongX", "ja": "iPongX" },
+        "img": "images/logo_pong.png",
+        "alt": "iPongX",
+        "link": "https://apps.apple.com/us/app/ipongx/id1452785447"
+    },
+    {
+        "title": { "ko": "잭 더 피스트", "en": "Jack The Fist", "ja": "ジャック・ザ・フィスト" },
+        "img": "images/logo_jtf.png",
+        "alt": "Jack The Fist",
+        "link": "https://totalbattery.itch.io/jtf"
+    },
+    {
+        "title": { "ko": "복싱", "en": "The Boxing", "ja": "ボクシング" },
+        "img": "images/logo_box.png",
+        "alt": "The Boxing",
+        "link": "https://totalbattery.itch.io/the-boxing"
+    },
+    {
+        "title": { "ko": "나는 산타가 싫다!", "en": "I Hate Santa!", "ja": "俺はサンタが大嫌いだ！" },
+        "img": "images/logo_santa.png",
+        "alt": "I Hate Santa!",
+        "link": "https://totalbattery.itch.io/i-hate-santa"
+    }
+
+]
