@@ -35,23 +35,29 @@ function createProjectCard(project) {
     return div;
 }
 
-fetch("data/games.json")
-    .then(res => res.json())
-    .then(games => {
-        const container = document.querySelector(".game-list");
-        games.forEach(game => container.appendChild(createGameElement(game)));
-    });
+function loadData({ url, containerId, builder }) {
+    fetch(url)
+        .then(res => res.json())
+        .then(items => {
+            const container = document.getElementById(containerId);
+            items.forEach(item => container.appendChild(builder(item)));
+        });
+}
 
-fetch("data/prototypes.json")
-    .then(res => res.json())
-    .then(games => {
-        const container = document.querySelector(".prototype-list");
-        games.forEach(game => container.appendChild(createGameElement(game)));
-    });
+loadData({
+    url: "data/games.json",
+    containerId: "game-list",
+    builder: createGameElement
+});
 
-fetch("data/projects.json")
-    .then(res => res.json())
-    .then(projects => {
-        const container = document.getElementById("project-list");
-        projects.forEach(project => container.appendChild(createProjectCard(project)));
-    });
+loadData({
+    url: "data/prototypes.json",
+    containerId: "prototype-list",
+    builder: createGameElement
+});
+
+loadData({
+    url: "data/projects.json",
+    containerId: "project-list",
+    builder: createProjectCard
+});
