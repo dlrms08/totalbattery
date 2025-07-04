@@ -3,25 +3,29 @@
         "title": { "ko": "스파르탄Z", "en": "SpartanZ", "ja": "スパルタンZ" },
         "img": "images/logo_spartan_z.png",
         "alt": "SpartanZ",
-        "link": "https://totalbattery.itch.io/sprtan-z"
+        "link": "https://totalbattery.itch.io/sprtan-z",
+        "embed": "https://itch.io/embed-upload/14101365?color=BCBCF8"
     },
     {
         "title": { "ko": "잭 더 피스트", "en": "Jack The Fist", "ja": "ジャック・ザ・フィスト" },
         "img": "images/logo_jtf.png",
         "alt": "Jack The Fist",
-        "link": "https://totalbattery.itch.io/jtf"
+        "link": "https://totalbattery.itch.io/jtf",
+        "embed": ""
     },
     {
         "title": { "ko": "복싱", "en": "The Boxing", "ja": "ボクシング" },
         "img": "images/logo_box.png",
         "alt": "The Boxing",
-        "link": "https://totalbattery.itch.io/the-boxing"
+        "link": "https://totalbattery.itch.io/the-boxing",
+        "embed": ""
     },
     {
         "title": { "ko": "나는 산타가 싫다!", "en": "I Hate Santa!", "ja": "俺はサンタが大嫌いだ！" },
         "img": "images/logo_santa.png",
         "alt": "I Hate Santa!",
-        "link": "https://totalbattery.itch.io/i-hate-santa"
+        "link": "https://totalbattery.itch.io/i-hate-santa",
+        "embed": ""
     }
 
 ]
