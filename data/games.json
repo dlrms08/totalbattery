@@ -1,17 +1,5 @@
  [
     {
-        "title": { "ko": "스파르탄Z", "en": "SpartanZ", "ja": "スパルタンZ" },
-        "img": "images/logo_spartan_z.png",
-        "alt": "SpartanZ",
-        "link": "https://totalbattery.itch.io/sprtan-z"
-    },
-    {
-        "title": { "ko": "픽셀즈", "en": "Pixels", "ja": "ピクセルズ" },
-        "img": "images/logo_pixels.png",
-        "alt": "Pixels",
-        "link": "https://play.google.com/store/apps/details?id=com.totalbattery.pixel"
-    },
-    {
         "title": { "ko": "IFO for Playdate", "en": "IFO for Playdate", "ja": "IFO for Playdate" },
         "img": "images/logo_ifo_plydate.png",
         "alt": "IFO for Playdate",
@@ -42,6 +30,12 @@
         "link": "https://totalbatterystudio.blogspot.com/2021/08/yuseong.html"
     },
     {
+        "title": { "ko": "픽셀즈", "en": "Pixels", "ja": "ピクセルズ" },
+        "img": "images/logo_pixels.png",
+        "alt": "Pixels",
+        "link": "https://play.google.com/store/apps/details?id=com.totalbattery.pixel"
+    },
+    {
         "title": { "ko": "BloomPixel", "en": "BloomPixel", "ja": "BloomPixel" },
         "img": "images/logo_bloom.png",
         "alt": "BloomPixel",
@@ -64,24 +58,5 @@
         "img": "images/logo_pong.png",
         "alt": "iPongX",
         "link": "https://apps.apple.com/us/app/ipongx/id1452785447"
-    },
-    {
-        "title": { "ko": "잭 더 피스트", "en": "Jack The Fist", "ja": "ジャック・ザ・フィスト" },
-        "img": "images/logo_jtf.png",
-        "alt": "Jack The Fist",
-        "link": "https://totalbattery.itch.io/jtf"
-    },
-    {
-        "title": { "ko": "복싱", "en": "The Boxing", "ja": "ボクシング" },
-        "img": "images/logo_box.png",
-        "alt": "The Boxing",
-        "link": "https://totalbattery.itch.io/the-boxing"
-    },
-    {
-        "title": { "ko": "나는 산타가 싫다!", "en": "I Hate Santa!", "ja": "俺はサンタが大嫌いだ！" },
-        "img": "images/logo_santa.png",
-        "alt": "I Hate Santa!",
-        "link": "https://totalbattery.itch.io/i-hate-santa"
     }
-
 ]

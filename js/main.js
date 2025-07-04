@@ -42,6 +42,13 @@ fetch("data/games.json")
         games.forEach(game => container.appendChild(createGameElement(game)));
     });
 
+fetch("data/prototypes.json")
+    .then(res => res.json())
+    .then(games => {
+        const container = document.querySelector(".prototype-list");
+        games.forEach(game => container.appendChild(createGameElement(game)));
+    });
+
 fetch("data/projects.json")
     .then(res => res.json())
     .then(projects => {
