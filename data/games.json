@@ -53,7 +53,7 @@
         "img": "images/logo_knight.png",
         "alt": "Tales of a Knight",
         "link": "https://totalbatterystudio.blogspot.com/2021/08/nightmare-f-adventure-of-devil-land.html",
-        "embed": ""
+        "embed": "game/Nightmare/index.html"
     },
     {
         "title": { "ko": "밤마실 - 한밤의 드라이브", "en": "BAMMASIL - Midnight Drive", "ja": "ナイトラン - 深夜のドライブ" },

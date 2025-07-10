@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | SPRTAN Z</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
+    #unity-canvas {
+      display: block;
+      background: #231F20;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="unity-canvas" tabindex="-1"></canvas>
+  <script src="Build/WebGL.loader.js"></script>
+  <script>
+    // 안전한 높이 가져오기 (iOS 대응)
+    function getSafeViewportHeight() {
+      if (window.visualViewport) {
+        return window.visualViewport.height;
+      }
+      return window.innerHeight;
+    }
+
+    function resizeCanvas() {
+      const canvas = document.getElementById("unity-canvas");
+      const aspect = 9 / 16;
+      const windowWidth = window.innerWidth;
+      const windowHeight = getSafeViewportHeight();
+      const windowAspect = windowWidth / windowHeight;
+
+      let width, height;
+      if (windowAspect > aspect) {
+        height = windowHeight;
+        width = height * aspect;
+      } else {
+        width = windowWidth;
+        height = width / aspect;
+      }
+
+      canvas.style.width = width + "px";
+      canvas.style.height = height + "px";
+    }
+
+    // 이벤트 바인딩
+    window.addEventListener("resize", resizeCanvas);
+    window.addEventListener("load", resizeCanvas);
+
+    // 회전 시 약간 지연 후 캔버스 크기 다시 조정
+    window.addEventListener("orientationchange", () => {
+      setTimeout(resizeCanvas, 300);
+    });
+
+    // 모바일 대응: viewport meta 태그 추가
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      const meta = document.createElement('meta');
+      meta.name = 'viewport';
+      meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+      document.getElementsByTagName('head')[0].appendChild(meta);
+    }
+
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL.data",
+        frameworkUrl: "Build/WebGL.framework.js",
+        codeUrl: "Build/WebGL.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Total Battery",
+        productName: "NightmareF",
+        productVersion: "1.7.3",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
+</html>
