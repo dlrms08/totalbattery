@@ -32,9 +32,9 @@ body {
 
 .visitorCount{
     text-align:center; 
-    margin-top:50px; 
+    /* margin-top:50px;  */
     color:gray; 
-    font-size:14px;
+    font-size:11px;
 }
 
 /* ===== 텍스트 구성 ===== */
