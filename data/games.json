@@ -46,7 +46,7 @@
         "img": "images/logo_bloom.png",
         "alt": "BloomPixel",
         "link": "https://totalbatterystudio.blogspot.com/2021/08/bloompixel-neon-snake.html",
-        "embed": ""
+        "embed": "game/bloomPixel/index.html"
     },
     {
         "title": { "ko": "기사 이야기", "en": "Tales of a Knight", "ja": "ナイト物語" },
