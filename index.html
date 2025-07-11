@@ -11,51 +11,6 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7848859828782695"
      crossorigin="anonymous"></script>
 
-     <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics.js";
-        import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-            apiKey: "AIzaSyBdeBi5kAdXpZjr5Kw63NlGAOXNljys3Nw",
-            authDomain: "totalbatteryhome.firebaseapp.com",
-            projectId: "totalbatteryhome",
-            storageBucket: "totalbatteryhome.firebasestorage.app",
-            messagingSenderId: "286228146286",
-            appId: "1:286228146286:web:c482bbe243b60372859e7f",
-            measurementId: "G-V1DCNCMN3X"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const db = getFirestore(app);
-
-        // ✅ 방문자 수 업데이트 함수
-        async function updateVisitorCount() {
-            const ref = doc(db, "visitors", "counter");
-            try {
-                const snapshot = await getDoc(ref);
-                const current = snapshot.exists() ? snapshot.data().count : 0;
-                await setDoc(ref, { count: current + 1 });
-                document.getElementById("visitorCount").innerText = "Visitors: " + (current + 1);
-            } catch (err) {
-                console.error("Firestore 오류:", err);
-                document.getElementById("visitorCount").innerText = "Visitors: Loading Failed";
-            }
-        }
-
-        // ✅ 페이지 로드시 실행
-        window.addEventListener("DOMContentLoaded", () => {
-            updateVisitorCount();
-        });
-    </script>
-
         <!-- 🎨 외부 CSS 연결 -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -184,9 +139,9 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script> -->
 
-    <div class="visitorCount" id="visitorCount">
+    <!-- <div class="visitorCount" id="visitorCount">
             Visitors: Loading...
-    </div>
+    </div> -->
 
     <hr>
     <div class="footer">
