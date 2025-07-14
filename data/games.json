@@ -32,7 +32,7 @@
         "img": "images/logo_meteor.png",
         "alt": "YUSEONG",
         "link": "https://totalbatterystudio.blogspot.com/2021/08/yuseong.html",
-        "embed": ""
+        "embed": "game/yuseong/index.html"
     },
     {
         "title": { "ko": "픽셀즈", "en": "Pixels", "ja": "ピクセルズ" },
