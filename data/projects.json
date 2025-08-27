@@ -5,7 +5,12 @@
         "alt": "The Ramsey",
         "platforms": [
             { "label": "Xbox", "url": "https://www.xbox.com/en-US/games/store/the-ramsey/9pgprv2wlc9j" }
-        ]
+        ],
+        "disc": {
+            "ko": "<strong>작업내역</strong><br>* Xbox GDK 연동, 업적 시스템, 게임 데이터 관리<br>* 컨트롤러 입력 및 진동 기능 적용<br><br><strong>특기사항</strong><br>* 빌드 제출부터 출시까지 전 과정 대응",
+            "en": "<strong>Work Details</strong><br>* Integrated Xbox GDK, achievement system, and game data management<br>* Implemented controller input and vibration features<br><br><strong>Key Points</strong><br>* Handled the entire process from build submission to release",
+            "ja": "<strong>作業内容</strong><br>* Xbox GDKの連携、アチーブメントシステム、ゲームデータ管理<br>* コントローラー入力および振動機能の実装<br><br><strong>特記事項</strong><br>* ビルド提出からリリースまで全工程を対応"
+        }
     },
     {
         "title": { "ko": "텔레빗", "en": "Telebbit", "ja": "テレビット" },
@@ -15,7 +20,25 @@
             { "label": "Xbox", "url": "https://www.xbox.com/ko-kr/games/store/telebbit/9msvrnhgj7dx" },
             { "label": "PS5", "url": "https://store.playstation.com/ko-kr/product/JB0780-PPSA22929_00-0200022057825509" },
             { "label": "NS", "url": "https://store.nintendo.co.kr/70010000086296" }
-        ]
+        ],
+        "disc": {
+            "ko": "<strong>작업내역</strong><br>* 플랫폼별 SDK 연동, 업적 시스템, 컨트롤러 입력 처리<br>* 진동 및 특수 입력 기능 구현<br><br><strong>특기사항</strong><br>* PS5: 햅틱 피드백 및 적응형 트리거 완전 지원<br>* Xbox / Nintendo Switch: PS5 유사 체감을 위한 <strong>커스텀 진동 시스템 구현</strong>",
+            "en": "<strong>Work Details</strong><br>* Integrated platform-specific SDKs, achievement system, and controller input handling<br>* Implemented vibration and special input features<br><br><strong>Key Points</strong><br>* PS5: Full support for haptic feedback and adaptive triggers<br>*Xbox / Nintendo Switch: Developed a <strong>custom vibration system</strong> to replicate PS5-like feedback",
+            "ja": "<strong>作業内容</strong><br>* プラットフォーム別SDK連携、実績システム、コントローラー入力処理<br>* コントローラー振動および特殊入力機能の実装<br><br><strong>特記事項</strong><br>* PS5：ハプティックフィードバックおよびアダプティブトリガーを完全サポート<br>* Xbox / Nintendo Switch：PS5に近い体感を実現するための<strong>カスタム振動システムを実装</strong>"
+        }
+    },
+    {
+        "title": { "ko": "THE STARBITES", "en": "THE STARBITES", "ja": "THE STARBITES" },
+        "img": "images/logo_starbites.jpg",
+        "alt": "THE STARBITES",
+        "platforms": [
+            { "label": "NS", "url": "" }
+        ],
+        "disc": {
+            "ko": "<strong>작업내역</strong><br>* Nintendo SDK 연동, 게임 데이터 관리<br>* 컨트롤러 입력 처리<br><br><strong>특기사항</strong><br>* Switch 환경에서 30fps 안정화를 위해 리소스 전수 최적화 진행",
+            "en": "<strong>Work Details</strong><br>* Integrated Nintendo SDK and managed game data<br>* Implemented controller input handling<br><br><strong>Key Points</strong><br>* Performed full resource optimization to maintain stable 30fps on Switch",
+            "ja": "<strong>作業内容</strong><br>* Nintendo SDKの連携、ゲームデータ管理<br>* コントローラー入力処理<br><br><strong>特記事項</strong><br>* Switch環境で30fpsを安定させるため、リソースの全体最適化を実施"
+        }
     },
     {
         "title": { "ko": "지금 우리 학교는", "en": "All Of Us Are Dead", "ja": "今、私たちの学校は" },
@@ -23,7 +46,12 @@
         "alt": "All Of Us Are Dead",
         "platforms": [
             { "label": "iOS", "url": "https://apps.apple.com/kr/app/%EC%A7%80%EA%B8%88-%EC%9A%B0%EB%A6%AC-%ED%95%99%EA%B5%90%EB%8A%94/id6503680776" }
-        ]
+        ],
+        "disc": {
+            "ko": "<strong>작업내역</strong><br>* 빌드 타겟 변경, 오류 수정, Xcode 빌드 작업<br><br><strong>특기사항</strong><br>* App Store Connect 신규 앱 등록, 메타데이터 입력, 빌드 제출 및 출시 대응",
+            "en": "<strong>Work Details</strong><br>* Changed build targets, fixed errors, and performed Xcode build tasks<br><br><strong>Key Points</strong><br>* Registered new app on App Store Connect, entered metadata, and managed build submission and release",
+            "ja": "<strong>作業内容</strong><br>* ビルドターゲットの変更、エラー修正、Xcodeビルド作業<br><br><strong>特記事項</strong><br>* App Store Connectへの新規アプリ登録、メタデータ入力、ビルド提出およびリリース対応"
+        }
     },
     {
         "title": { "ko": "큐브나이츠", "en": "Cube Knights", "ja": "キューブナイツ" },
@@ -32,14 +60,11 @@
         "platforms": [
             { "label": "iOS", "url": "https://apps.apple.com/kr/app/%ED%81%90%EB%B8%8C%EB%82%98%EC%9D%B4%EC%B8%A0/id6737216780" },
             { "label": "Android", "url": "https://play.google.com/store/apps/details?id=com.ikinagames.cubeknight&hl=ko" }
-        ]
-    },
-    {
-        "title": { "ko": "THE STARBITES", "en": "THE STARBITES", "ja": "THE STARBITES" },
-        "img": "images/logo_starbites.jpg",
-        "alt": "THE STARBITES",
-        "platforms": [
-            { "label": "NS", "url": "" }
-        ]
+        ],
+        "disc": {
+            "ko": "<strong>작업내역</strong><br>* Unity 버전 업그레이드 및 구버전 플러그인 정리<br>* 광고·인앱 결제 시스템 복구, 업적 및 리더보드 기능 복원<br><br><strong>특기사항</strong><br>* 서비스 종료 프로젝트 복각을 위해 에러 해결 및 사양 분석 집중 진행<br>* App Store Connect/Google Dev Console 신규 앱 등록, 메타데이터 입력, 빌드 제출 및 출시 대응",
+            "en": "<strong>Work Details</strong><br>* Upgraded Unity version and removed outdated plugins<br>* Restored ad and in-app purchase systems, as well as achievements and leaderboard features<br><br><strong>Key Points</strong><br>* Focused on error resolution and specification analysis for reviving a discontinued project<br>* Delivered new iOS/Android builds and managed release",
+            "ja": "<strong>作業内容</strong><br>* Unityのバージョンアップおよび旧バージョンプラグインの整理<br>* 広告・アプリ内課金システムの復旧、実績およびリーダーボード機能の復元<br><br><strong>特記事項</strong><br>* Sサービス終了プロジェクトを復刻するため、エラー解決および仕様分析に注力<br>* App Store Connect/Google Dev Consoleへの新規アプリ登録メタデータ入力、ビルド提出およびリリース対応"
+        }
     }
 ]

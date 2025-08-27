@@ -41,9 +41,13 @@ body {
 #welcome-text {
     color: #3498db;
 }
-#detail-text{
+/* #detail-text{
     text-align: left; 
     letter-spacing: 2px
+} */
+.detail-text {
+    text-align: left;
+    letter-spacing: 2px;
 }
 
 /* ===== 링크 공통 스타일 ===== */
@@ -60,7 +64,8 @@ a:hover {
 /* ===== 개별 링크 스타일 ===== */
 a.platform-link {
     display: inline-block;
-    margin: 10px 5px 0 5px;
+    text-decoration: underline;
+    margin: 10px 5px 10px 5px;
 }
 
 a.social-links {
@@ -70,6 +75,7 @@ a.social-links {
 
 a.game-links {
     display: inline-block;
+    text-decoration: underline;
     margin: 10px 5px 0 5px;
     /* font-size: 14px; */
 }
@@ -118,6 +124,12 @@ a.game-links {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
+}
+.card-desc {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+    word-spacing: 2px;
 }
 .blank-card {
     visibility: hidden;

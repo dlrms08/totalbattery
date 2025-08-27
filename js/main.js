@@ -39,10 +39,17 @@ function createProjectCard(project) {
     const platformLinks = project.platforms
         .map(p => `<a href="${p.url}" target="_blank" class="platform-link">${p.label}</a>`)
         .join(" | ");
+
+        // disc가 비어 있으면 추가하지 않음
+    const discHTML = project.disc && project.disc.ko.trim() !== ""
+        ? `<div class="card-desc" data-lang='${JSON.stringify(project.disc)}'>${project.disc.ko}</div>`
+        : "";
+
     div.innerHTML = `
         <img src="${project.img}" alt="${project.alt}">
         <div class="card-title" data-lang='${JSON.stringify(project.title)}'>${project.title.ko}</div>
         <div class="platform-links">${platformLinks}</div>
+        ${discHTML}
     `;
     return div;
 }
