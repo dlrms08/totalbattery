@@ -19,6 +19,11 @@ function createGameElement(game) {
         ? `<a href="${game.embed}" target="_blank" class="game-links" data-lang='${JSON.stringify({ko:"플레이", en:"Play", ja:"プレイ"})}'>플레이</a><span> | </span>`
         : "";
 
+    // disc가 비어 있으면 추가하지 않음
+    const discHTML = game.disc && game.disc.ko.trim() !== ""
+        ? `<div class="card-desc" data-lang='${JSON.stringify(game.disc)}'>${game.disc.ko}</div>`
+        : "";
+
     gameDiv.innerHTML = `
         <img src="${game.img}" alt="${game.alt}">
         <div class="card-title" data-lang='${JSON.stringify(game.title)}'>${game.title.ko}</div>
@@ -26,6 +31,7 @@ function createGameElement(game) {
             ${playButton}
             <a href="${game.link}" target="_blank" class="game-links" data-lang='${JSON.stringify({ko:"자세히 보기", en:"More Info", ja:"詳細を見る"})}'>자세히 보기</a>
         </div>
+        ${discHTML}
     `;
     
     return gameDiv;

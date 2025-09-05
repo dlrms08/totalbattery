@@ -4,28 +4,47 @@
         "img": "images/logo_spartan_z.png",
         "alt": "SpartanZ",
         "link": "https://totalbattery.itch.io/sprtan-z",
-        "embed": "https://itch.io/embed-upload/14101365?color=BCBCF8"
+        "embed": "https://itch.io/embed-upload/14101365?color=BCBCF8",
+        "disc": {
+            "ko": "아이렘의 &ldquo;Kung-Fu Master&rdquo;를 좋아해 만든 팬메이드 게임입니다.<br><br>3D 어셋을 사용했지만 셰이더로 원작 느낌을 살리고, 효과음과 BGM도 직접 제작했습니다. 현재는 스테이지1 뿐이지만 기회가 된다면 모든 스테이지를 만들고 싶습니다.",
+            "en": "This is a fan-made game inspired by Irem&#39;s &ldquo;Kung-fu Master&rdquo;.<br><br>3D assets are used, but shaders keep the original feel, and sound effects and BGM were made from scratch. Only Stage 1 is implemented so far, but I hope to create all stages eventually.",
+            "ja": "これはIREM社のSpartanXが好きで作ったファンメイドゲームです。<br><br>3Dアセットを使用していますが、シェーダーで原作の雰囲気を再現し、効果音とBGMも自作しました。今はステージ1のみですが、機会があれば完成したいと思っています。"
+        }
     },
     {
         "title": { "ko": "잭 더 피스트", "en": "Jack The Fist", "ja": "ジャック・ザ・フィスト" },
         "img": "images/logo_jtf.png",
         "alt": "Jack The Fist",
         "link": "https://totalbattery.itch.io/jtf",
-        "embed": "https://itch.io/embed-upload/14276011?color=000000"
+        "embed": "https://itch.io/embed-upload/14276011?color=000000",
+        "disc": {
+            "ko": "LSI게임기 스타일의 액션게임은 어떤형태일까?라는 의문에서 시작한 프로토타입입니다.<br><br>특유의 발광 효과와 플리커링 그리고 정해진 이미지 패턴이 움직이는 느낌이 특징입니다.",
+            "en": "What would an LSI-style action game look like? This prototype explores that, featuring glowing effects, flickering, and moving image patterns.",
+            "ja": "LSIゲーム機スタイルのアクションゲームはどのような形になるのか、という疑問から始めたプロトタイプです。<br><br>特有の発光効果やフリッカリング、動く画像パターンが特徴です。"
+        }
     },
     {
         "title": { "ko": "복싱", "en": "The Boxing", "ja": "ボクシング" },
         "img": "images/logo_box.png",
         "alt": "The Boxing",
         "link": "https://totalbattery.itch.io/the-boxing",
-        "embed": "https://itch.io/embed-upload/14231825?color=3d3d3d"
+        "embed": "https://itch.io/embed-upload/14231825?color=3d3d3d",
+        "disc": {
+            "ko": "&ldquo;이주와 통합에 대한 디지털적 접근&rdquo;을 주제로 한 게임잼 대전 액션 게임입니다.<br><br>원주민과 이주민의 대립을 복싱으로 표현하면서 결국 모두 같은 지구인임을 전합니다. 타격감 있는 펀치와 상대를 무방비 상태로 만드는 패리 시스템이 재미를 더합니다.",
+            "en": "&ldquo;A Digital Approach to Migration and Integration&rdquo; is a fighting action game made at a game jam.<br><br>It depicts the clash between natives and immigrants through boxing, while reminding us that we are all Earthlings. Punch impact and a parry system that leaves opponents open add to the fun.",
+            "ja": "&ldquo;移住と統合に関するデジタル的アプローチ&rdquo; をテーマにしたゲームジャムの対戦アクションゲームです。<br><br>先住民と移住民の対立をボクシングで表現し、最終的には私たちが皆同じ地球人であることを伝えます。力強いパンチや、相手を一定時間無防備にするパリィシステムが楽しさをさらに高めます。"
+        }
     },
     {
         "title": { "ko": "나는 산타가 싫다!", "en": "I Hate Santa!", "ja": "俺はサンタが大嫌いだ！" },
         "img": "images/logo_santa.png",
         "alt": "I Hate Santa!",
         "link": "https://totalbattery.itch.io/i-hate-santa",
-        "embed": ""
+        "embed": "",
+        "disc": {
+            "ko": "종합밧데리의 크리스마스 공식 게임입니다.<br><br>선물을 전하려고 굴뚝과 창문으로 기어이 들어오려는 산타들을 막아내세요.",
+            "en": "This is Total Battery’s official Christmas game.<br><br>Stop the Santas who are desperately trying to sneak in through chimneys and windows to deliver presents.",
+            "ja": "総合バッテリーの公式クリスマスゲームです。<br><br>プレゼントを届けようと、煙突や窓からどうにかして入ってこようとするサンタたちを食い止めてください。"
+        }
     }
-
 ]
