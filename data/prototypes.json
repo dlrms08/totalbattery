@@ -4,28 +4,47 @@
         "img": "images/logo_spartan_z.png",
         "alt": "SpartanZ",
         "link": "https://totalbattery.itch.io/sprtan-z",
-        "embed": "https://itch.io/embed-upload/14101365?color=BCBCF8"
+        "embed": "https://itch.io/embed-upload/14101365?color=BCBCF8",
+        "disc": {
+            "ko": "소개글 준비중",
+            "en": "Content coming soon",
+            "ja": "ゲーム紹介ゲーム紹介準備中"
+        }
     },
     {
         "title": { "ko": "잭 더 피스트", "en": "Jack The Fist", "ja": "ジャック・ザ・フィスト" },
         "img": "images/logo_jtf.png",
         "alt": "Jack The Fist",
         "link": "https://totalbattery.itch.io/jtf",
-        "embed": "https://itch.io/embed-upload/14276011?color=000000"
+        "embed": "https://itch.io/embed-upload/14276011?color=000000",
+        "disc": {
+            "ko": "소개글 준비중",
+            "en": "Content coming soon",
+            "ja": "ゲーム紹介ゲーム紹介準備中"
+        }
     },
     {
         "title": { "ko": "복싱", "en": "The Boxing", "ja": "ボクシング" },
         "img": "images/logo_box.png",
         "alt": "The Boxing",
         "link": "https://totalbattery.itch.io/the-boxing",
-        "embed": "https://itch.io/embed-upload/14231825?color=3d3d3d"
+        "embed": "https://itch.io/embed-upload/14231825?color=3d3d3d",
+        "disc": {
+            "ko": "소개글 준비중",
+            "en": "Content coming soon",
+            "ja": "ゲーム紹介ゲーム紹介準備中"
+        }
     },
     {
         "title": { "ko": "나는 산타가 싫다!", "en": "I Hate Santa!", "ja": "俺はサンタが大嫌いだ！" },
         "img": "images/logo_santa.png",
         "alt": "I Hate Santa!",
         "link": "https://totalbattery.itch.io/i-hate-santa",
-        "embed": ""
+        "embed": "",
+        "disc": {
+            "ko": "소개글 준비중",
+            "en": "Content coming soon",
+            "ja": "ゲーム紹介ゲーム紹介準備中"
+        }
     }
-
 ]
