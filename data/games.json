@@ -6,9 +6,9 @@
         "link": "https://totalbattery.itch.io/ifo",
         "embed": "https://itch.io/embed-upload/14250562?color=6c7358",
         "disc": {
-            "ko": "&ldquo;IFO&rdquo;는 클래식 LCD 게임기 스타일의 슈팅 게임이자 제가 개발한 게임 중 가장 많은 플랫폼으로 출시된 게임입니다.<br><br>레트로 비행기를 조종하여 UFO를 격추하고, 수수께끼의 침략자에게 납치된 가축들을 구출하세요.",
-            "en": "&ldquo;IFO&rdquo; is a classic LCD-style shoot&#39;em up game and the title of mine released on the most platforms among my creations.<br><br>Take control of a retro aircraft, shoot down UFOs, and rescue the animals kidnapped by mysterious aliens.",
-            "ja": "『IFO』はクラシックなLCDゲーム機スタイルのシューティングゲームで、私が開発した中で最も多くのプラットフォームでリリースされたタイトルです。<br><br>レトロな飛行機を操作し、UFOを撃ち落とし、謎の宇宙人にさらわれた動物たちを救出しましょう。"
+            "ko": "&ldquo;IFO&rdquo;는 &ldquo;Time Pilot&rdquo;에서 영감을 받은 클래식 LCD 게임기 스타일의 슈팅 게임입니다<br>",
+            "en": "&ldquo;IFO&rdquo;is a classic LCD-style shooting game inspired by “Time Pilot.<br>”",
+            "ja": "『IFO』は『Time Pilot」から着想を得たLCDゲーム風のシューティングゲームです。<br>"
         }
     },
     {
@@ -18,9 +18,9 @@
         "link": "https://totalbattery.itch.io/crankyifo",
         "embed": "",
         "disc": {
-            "ko": "&ldquo;IFO&rdquo;를 Playdate용으로 컨버전한 프로젝트입니다.<br><br>STM32F746 칩셋(216MHz, 8~16KB 캐시)과 16MB 메모리에 맞추느라 1년 걸렸지만 크랭크를 빙글빙글 돌려서 UFO를 격추하는 재미가 각별합니다.",
-            "en": "This is a project that converted &ldquo;IFO&rdquo; for Playdate.<br><br>It took a year to adapt to the STM32F746 chipset (216MHz, 8–16KB cache) and 16MB memory but the fun of spinning the crank to shoot UFOs is still unmatched.",
-            "ja": "『IFO』をPlaydate向けにコンバートしたプロジェクトです。<br><br>STM32F746チップ（216MHz、8〜16KBキャッシュ）と16MBメモリに合わせるのに1年かかりましたが、クランクを回してUFOを撃つ楽しさが格別です。"
+            "ko": "&ldquo;IFO&rdquo;를 Playdate용으로 이식한 게임으로, 크랭크로 기체를 조작하는 것이 특징입니다.<br>",
+            "en": "&ldquo;IFO&rdquo;is a port of the game for Playdate, featuring crank-based aircraft control.<br>",
+            "ja": "『IFO』をPlaydate向けに移植したゲームで、クランクを使って機体を操作するのが特徴です。<br>"
         }
     },
     {
@@ -30,9 +30,9 @@
         "link": "https://totalbattery.itch.io/space-hero-50",
         "embed": "https://itch.io/embed-upload/14239175?color=0a0a0a",
         "disc": {
-            "ko": "어릴 적 갖고 싶었지만 끝내 손에 넣지 못했던 LSI 게임기, 그 아쉬움을 담아 직접 만들었습니다.<br><br> 스페이스 히어로 50은 당시의 LSI게임기의 디자인과 게임성을 철저하게 복각한 슈팅 게임입니다.",
-            "en": "I couldn’t own an LSI game console as a kid—so I recreated it from scratch.<br><br>Space Hero 50 is a tribute to that era, faithfully restoring its design and gameplay.",
-            "ja": "子どもの頃、どうしても手に入れられなかったLSIゲーム機<br>その悔しさを胸に、自らの手で作りました。<br><br>『スペースヒーロー50』は、当時のLSIゲーム機のデザインとゲーム性を徹底的に再現したシューティングゲームです。"
+            "ko": "&ldquo;스페이스 히어로 50&rdquo;은 LSI게임기의 디자인과 게임성을 철저하게 복각한 슈팅 게임입니다.<br>",
+            "en": "&rdquo;Space Hero 50&rdquo; is a shooting game that recreates classic LSI handhelds.<br>",
+            "ja": "『スペースヒーロー50』は、LSIゲーム機を忠実に再現したシューティングゲームです。<br>"
         }
     },
     {
@@ -42,9 +42,9 @@
         "link": "https://play.google.com/store/apps/details?id=com.Dontworry.tank&hl=en-US",
         "embed": "",
         "disc": {
-            "ko": "키우기 게임이 막 나오던 시절에 친구들과 재미삼아 만들어본 게임입니다.<br><br>탱크를 극한까지 키워서 우주 괴수들을 물리치세요!",
-            "en": "This is a game we made for fun back in the early days of idle games.<br><br>Raise your tank to the extreme and defeat cosmic monsters!",
-            "ja": "放置ゲームが出始めた頃、友達と遊び感覚で作ったゲームです。<br><br>戦車を極限まで育てて、宇宙怪獣を倒そう！"
+            "ko": "탱크를 극한까지 성장시켜서 우주괴수를 물리치는 방치형 게임입니다.<br>",
+            "en": "An idle game where you grow your tank to the limit and defeat space monsters.<br>",
+            "ja": "タンクを極限まで強化して宇宙怪獣を倒す放置系ゲームです。<br>"
         }
     },
     {
@@ -54,9 +54,9 @@
         "link": "https://totalbatterystudio.blogspot.com/2021/08/yuseong.html",
         "embed": "game/yuseong/index.html",
         "disc": {
-            "ko": "탭만으로 조작하는 아스트로이드 콘셉트 게임입니다.<br><br>탭은 무기 발사와 이동 방향 전환을 겸하며, 차지 레이저포와 더블샷 모드 등 단순한 조작 속에서도 다양한 재미를 담았습니다.",
-            "en": "This is an Asteroid-inspired game controlled entirely with taps.<br><br>Each tap both fires weapons and changes direction, featuring charge lasers, double-shot mode, and more, which deliver variety within simple controls.",
-            "ja": "タップだけで操作する『アステロイド』風のゲームです。<br><br>タップは武器発射と移動方向の切り替えを兼ねており、チャージレーザーやダブルショットモードなど、シンプルな操作ながら多彩な楽しさを盛り込みました。"
+            "ko": "탭만으로 조작하는 아스테로이드 콘셉트 게임입니다.<br>",
+            "en": "An asteroid-themed game controlled with just taps.<br>",
+            "ja": "タップだけで操作するアステロイド風のゲームです。<br>"
         }
     },
     {
@@ -66,9 +66,9 @@
         "link": "https://play.google.com/store/apps/details?id=com.totalbattery.pixel",
         "embed": "",
         "disc": {
-            "ko": "퍼즐게임 &ldquo;Dots&rdquo;의 간결한 디자인과 심플한 플레이에서 영감을 얻은 3매치 퍼즐 게임입니다.<br><br>턴마다 점수를 쌓는 턴 모드, 제한 시간 안에 즐기는 타임 모드, 매치가 불가능할 때까지 이어가는 클래식 모드를 제공합니다.",
-            "en": "A match-3 puzzle game inspired by the clean design and simple play of &ldquo;Dots&rdquo;.<br><br>It offers three modes: Turn Mode to build scores strategically, Time Mode for fast-paced play within a limit, and Classic Mode that lasts until no matches remain.",
-            "ja": "パズルゲーム『Dots』のシンプルなデザインとプレイから着想を得た3マッチパズルゲームです。<br><br>ターンごとに戦略的にスコアを積み上げるターンモード、制限時間内で没入して楽しむタイムモード、マッチできなくなるまで続けられるクラシックモードを備えています。"
+            "ko": "퍼즐게임 &ldquo;Dots&rdquo;의 간결한 디자인과 심플한 플레이에서 영감을 얻은 3매치 퍼즐 게임입니다.<br>",
+            "en": "A match-3 puzzle inspired by the simple design and gameplay of &ldquo;Dots&ldquo;.<br>",
+            "ja": "『Dots』の簡潔なデザインとシンプルなプレイから着想を得た3マッチパズルゲームです。<br>"
         }
     },
     {
@@ -78,9 +78,9 @@
         "link": "https://totalbatterystudio.blogspot.com/2021/08/bloompixel-neon-snake.html",
         "embed": "game/bloomPixel/index.html",
         "disc": {
-            "ko": "&ldquo;BloomPixel&rdquo;은 화면에 떠다니는 컬러 픽셀을 모아 내 픽셀을 키워나가는 Snake 스타일의 캐주얼 게임입니다.<br><br>간단한 터치로 방향을 조절하고, 터치를 길게 눌러 픽셀을 가속시키며, 이를 이용해 연속으로 픽셀을 모으면 보너스를 얻을 수 있습니다.",
-            "en": "&ldquo;BloomPixel&rdquo; is a <strong>Snake-style casual game</strong> where you grow your pixel by collecting colorful pixels floating on the screen.<br><br>Control the direction with simple touch input, hold to accelerate the pixel, and use this to collect multiple pixels in succession for combo bonuses.",
-            "ja": "『BloomPixel』は、画面上のカラフルなピクセルを集めて自分のピクセルを伸ばすスネークスタイルのカジュアルゲームです。<br><br>タッチ操作で方向を変え、長押しでピクセルを加速させ、それを活用して連続でピクセルを集めるとコンボボーナスを獲得できます"
+            "ko": "네온 스타일의 스네이크 게임으로써 가속기능을 이용한 콤보 플레이가 특징입니다.<br>",
+            "en": "A neon-style snake game with combo play using acceleration.<br>",
+            "ja": "ネオン風のスネークゲームで、加速機能を使ったコンボプレイが特徴です。<br>"
         }
     },
     {
@@ -90,9 +90,9 @@
         "link": "https://totalbatterystudio.blogspot.com/2021/08/nightmare-f-adventure-of-devil-land.html",
         "embed": "game/Nightmare/index.html",
         "disc": {
-            "ko": "&ldquo;기사 이야기&rdquo;는 MSX 게임 Knightmare에서 영감을 받은 레트로 슈팅 게임으로, 액정 게임이 지금까지 살아남았다면 어떤 모습일까라는 궁금증에서 시작한 프로젝트입니다.<br><br>5개 스테이지의 보스를 물리치고 최고 점수를 리더보드에 등록해 보세요.",
-            "en": "&ldquo;Tales of a Knight&rdquo; is a retro shooting game inspired by the MSX title Knightmare, born from the question of what Game&Watch-style games would look like today.<br><br>Face 5 stages, bosses, and monsters while aiming for the highest leaderboard score.",
-            "ja": "『ナイト物語』は、MSXの『Knightmare』影響を受けたゲームで、ゲーム＆ウォッチが今まで生き残っていたらどんな姿だっただろうという疑問から始まったプロジェクトです。<br><br>5つのステージやボス、モンスターに挑戦し、最高スコアをリーダーボードに登録できます。"
+            "ko": "MSX 게임 &ldquo;Knightmare&ldquo;스타일의 슈팅게임으로 LCD스타일의 그래픽이 특징입니다.<br>",
+            "en": "A shooter inspired by Knightmare with LCD-style graphics.<br>",
+            "ja": "MSXゲーム『Knightmare』から着想を得たゲームで、LCD風のグラフィックが特徴です。<br>"
         }
     },
     {
@@ -102,9 +102,9 @@
         "link": "https://totalbatterystudio.blogspot.com/2021/08/bammasil-midnight-drive.html",
         "embed": "",
         "disc": {
-            "ko": "친구와의 야간 드라이브 기억을 바탕으로 만든 아케이드 드라이빙 게임입니다.<br><br>도로 표시를 따라 슬라이드로 차량을 조작하며, 가장자리에 닿으면 감속되고 도로를 벗어나면 시간이 줄어듭니다. 250점 이상 달성 시 보너스가 주어집니다.",
-            "en": "An arcade driving game inspired by the memory of a late-night drive with a friend.<br><br>Control the car by sliding along the road markings—touching the edge slows you down, leaving the road reduces your time, and reaching 250 points grants a bonus.",
-            "ja": "友人との深夜ドライブの思い出をもとに制作したアーケード風ドライビングゲームです。<br><br>道路標識に沿ってスライド操作で車を動かし、端に触れると減速、道路から外れると時間が減少します。250点以上を獲得するとボーナスが与えられます。"
+            "ko": "고전 아케이드 센터용 드라이빙 게임을 모티브로 한 프로젝트입니다.<br>",
+            "en": "A project inspired by classic arcade driving games.<br>",
+            "ja": "クラシックなアーケードのドライビングゲームをモチーフにしたプロジェクトです。<br>"
         }
     },
     {
@@ -114,9 +114,9 @@
         "link": "https://apps.apple.com/us/app/ipongx/id1452785447",
         "embed": "",
         "disc": {
-            "ko": "맥을 쓰면서도 네이티브 프로젝트는 한 번도 해본 적이 없다는 걸 깨닫고, 도전 삼아 만든 Pong 스타일의 게임입니다.<br><br>1인 플레이는 물론 하나의 기기로 2인 대전도 가능해, 친구와 간식 내기를 하거나 가족과 함께 시간을 보내기에 좋습니다.",
-            "en": "Realizing I had never done a native project on a Mac, I challenged myself by creating a Pong-style game.<br><br>It supports single-player as well as two-player on one device, making it perfect for friendly snack bets or passing time with family.",
-            "ja": "これまでMacでネイティブプロジェクトをやったことがないことに気づき、挑戦としてPongスタイルのゲームを作りました。<br><br>1人プレイはもちろん、1台のデバイスで2人対戦も可能で、友達とのおやつゲームや家族との暇つぶしに最適です。"
+            "ko": "Swift로 제작한 Pong게임이며, 디바이스 한 대로 2인용도 가능합니다<br>",
+            "en": "A Pong game made in Swift, playable by two players on a single device.<br>",
+            "ja": "Swiftで作られたPongゲームで、1台のデバイスで2人プレイも可能です。<br>"
         }
     }
 ]
