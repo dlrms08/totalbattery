@@ -8,7 +8,7 @@
         "disc": {
             "ko": "아이렘의 &ldquo;Kung-Fu Master&rdquo;의 팬메이드 게임으로 모든 에셋은 오리지널 입니다.<br>",
             "en": "A fan-made game of Irem’s “Kung-Fu Master,” with all assets original.<br>",
-            "ja": "IREM社の『Sprtan-X』のファンメイドゲームで、すべてのアセットはオリジナルです。<br>"
+            "ja": "IREM社の『Sprtan-X』のファンメイドゲームで、全アセットはオリジナルです。<br>"
         }
     },
     {
@@ -30,9 +30,9 @@
         "link": "https://totalbattery.itch.io/the-boxing",
         "embed": "https://itch.io/embed-upload/14231825?color=3d3d3d",
         "disc": {
-            "ko": "원주민과 이주민의 대립을 복싱으로 표현하며, 결국 모두 같은 지구인임을 전하는 게임입니다.<br>",
+            "ko": "원주민과 이주민의 대립을 복싱에 빗대어 결국 모두가 지구인임을 전하는 게임입니다.<br>",
             "en": "A game depicting natives and migrants boxing, ultimately as fellow Earthlings.<br>",
-            "ja": "人々の対立をボクシングで表現し、結局は皆同じ地球人であることを伝えるゲームです。<br>"
+            "ja": "人々の対立をボクシングで表現し、結局皆同じ地球人ってことを伝えます。<br>"
         }
     },
     {
@@ -44,7 +44,7 @@
         "disc": {
             "ko": "선물을 주려고 굴뚝과 창문으로 기어이 들어오려는 산타들을 막아내는 게임입니다.<br>",
             "en": "A game where you stop Santas trying to enter through chimneys and windows.<br>",
-            "ja": "プレゼントを届けようと、煙突や窓から入り込もうとするサンタを阻止するゲームです。"
+            "ja": "プレゼントを届けようと、煙突や窓から入り込むサンタを阻止しましょう。"
         }
     }
 ]

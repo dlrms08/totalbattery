@@ -7,8 +7,8 @@
         "embed": "https://itch.io/embed-upload/14250562?color=6c7358",
         "disc": {
             "ko": "&ldquo;IFO&rdquo;는 &ldquo;Time Pilot&rdquo;에서 영감을 받은 클래식 LCD 게임기 스타일의 슈팅 게임입니다<br>",
-            "en": "&ldquo;IFO&rdquo;is a classic LCD-style shooting game inspired by “Time Pilot.<br>”",
-            "ja": "『IFO』は『Time Pilot」から着想を得たLCDゲーム風のシューティングゲームです。<br>"
+            "en": "&ldquo;IFO&rdquo;is a classic LCD-style shooting game inspired by “Time Pilot.<br>",
+            "ja": "『IFO』は『Time Pilot」から着想を得たLCDゲーム機スタイルのゲームです。<br>"
         }
     },
     {
@@ -20,7 +20,7 @@
         "disc": {
             "ko": "&ldquo;IFO&rdquo;를 Playdate용으로 이식한 게임으로, 크랭크로 기체를 조작하는 것이 특징입니다.<br>",
             "en": "&ldquo;IFO&rdquo;is a port of the game for Playdate, featuring crank-based aircraft control.<br>",
-            "ja": "『IFO』をPlaydate向けに移植したゲームで、クランクを使って機体を操作するのが特徴です。<br>"
+            "ja": "『IFO』をPlaydate向けに移植したゲームで、クランクを使った操作が特徴です。<br>"
         }
     },
     {
@@ -30,9 +30,9 @@
         "link": "https://totalbattery.itch.io/space-hero-50",
         "embed": "https://itch.io/embed-upload/14239175?color=0a0a0a",
         "disc": {
-            "ko": "&ldquo;스페이스 히어로 50&rdquo;은 LSI게임기의 디자인과 게임성을 철저하게 복각한 슈팅 게임입니다.<br>",
+            "ko": "&ldquo;스페이스 히어로 50&rdquo;은 LSI게임기의 게임 디자인을 철저하게 복각한 슈팅 게임입니다.<br>",
             "en": "&rdquo;Space Hero 50&rdquo; is a shooting game that recreates classic LSI handhelds.<br>",
-            "ja": "『スペースヒーロー50』は、LSIゲーム機を忠実に再現したシューティングゲームです。<br>"
+            "ja": "『スペースヒーロー50』は、LSIゲーム機を忠実に再現したゲームです。<br>"
         }
     },
     {
@@ -66,9 +66,9 @@
         "link": "https://play.google.com/store/apps/details?id=com.totalbattery.pixel",
         "embed": "",
         "disc": {
-            "ko": "퍼즐게임 &ldquo;Dots&rdquo;의 간결한 디자인과 심플한 플레이에서 영감을 얻은 3매치 퍼즐 게임입니다.<br>",
+            "ko": "퍼즐게임 &ldquo;Dots&rdquo;의 간결한 게임 디자인에서 영감을 얻은 3매치 퍼즐 게임입니다.<br>",
             "en": "A match-3 puzzle inspired by the simple design and gameplay of &ldquo;Dots&ldquo;.<br>",
-            "ja": "『Dots』の簡潔なデザインとシンプルなプレイから着想を得た3マッチパズルゲームです。<br>"
+            "ja": "『Dots』の簡潔なゲームデザインから着想を得た3マッチパズルゲームです。<br>"
         }
     },
     {
@@ -92,7 +92,7 @@
         "disc": {
             "ko": "MSX 게임 &ldquo;Knightmare&ldquo;스타일의 슈팅게임으로 LCD스타일의 그래픽이 특징입니다.<br>",
             "en": "A shooter inspired by Knightmare with LCD-style graphics.<br>",
-            "ja": "MSXゲーム『Knightmare』から着想を得たゲームで、LCD風のグラフィックが特徴です。<br>"
+            "ja": "MSXゲーム『Knightmare』から着想を得たLCDゲーム機スタイルのゲームです。<br>"
         }
     },
     {
