@@ -1,13 +1,33 @@
+// 🌍 페이지 오픈시 자동 언어 감지 (기본: 영어)
+function detectAndSetLanguage() {
+    // 브라우저 언어 감지
+    const browserLanguage = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    
+    // 한국어, 일본어만 감지, 나머지는 모두 영어 (기본값)
+    let detectedLang = 'en';
+    if (browserLanguage.startsWith('ko')) {
+        detectedLang = 'ko';
+    } else if (browserLanguage.startsWith('ja')) {
+        detectedLang = 'ja';
+    }
+    
+    // 감지된 언어로 설정
+    changeLanguage(detectedLang);
+}
+
 function changeLanguage(lang) {
-    // 변경된 코드: 텍스트 링크에 active 추가/제거
+    // 텍스트 링크에 active 추가/제거
     document.querySelectorAll(".language-selector a").forEach(el => el.classList.remove("active"));
     document.querySelector(`[onclick="changeLanguage('${lang}')"]`).classList.add("active");
 
-    // 다국어 텍스트 변경 기능은 그대로 유지
+    // 다국어 텍스트 변경
     document.querySelectorAll("[data-lang]").forEach(el => {
         let translations = JSON.parse(el.getAttribute("data-lang"));
         el.innerHTML = translations[lang];
     });
+
+    // HTML lang 속성 업데이트
+    document.documentElement.lang = lang;
 }
 
 function createGameElement(game) {
@@ -61,7 +81,7 @@ function createProjectCard(project) {
 }
 
 function loadData({ url, containerId, builder }) {
-    fetch(url)
+    return fetch(url)
         .then(res => res.json())
         .then(items => {
             const container = document.getElementById(containerId);
@@ -69,20 +89,28 @@ function loadData({ url, containerId, builder }) {
         });
 }
 
-loadData({
-    url: "data/games.json",
-    containerId: "game-list",
-    builder: createGameElement
-});
-
-loadData({
-    url: "data/prototypes.json",
-    containerId: "prototype-list",
-    builder: createGameElement
-});
-
-loadData({
-    url: "data/projects.json",
-    containerId: "project-list",
-    builder: createProjectCard
+// 모든 데이터 로드가 완료된 후 언어 설정
+Promise.all([
+    loadData({
+        url: "data/games.json",
+        containerId: "game-list",
+        builder: createGameElement
+    }),
+    loadData({
+        url: "data/prototypes.json",
+        containerId: "prototype-list",
+        builder: createGameElement
+    }),
+    loadData({
+        url: "data/projects.json",
+        containerId: "project-list",
+        builder: createProjectCard
+    })
+]).then(() => {
+    // 모든 데이터 로드 완료 후 자동 언어 감지
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", detectAndSetLanguage);
+    } else {
+        detectAndSetLanguage();
+    }
 });
