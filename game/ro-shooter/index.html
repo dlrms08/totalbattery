@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | NightmareF</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+
+        #unity-canvas {
+            display: block;
+            background: #231F20;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+
+    <script src="Build/RoShooter.loader.js"></script>
+
+    <script>
+
+        function getSafeViewportHeight() {
+            if (window.visualViewport) {
+                return window.visualViewport.height;
+            }
+            return window.innerHeight;
+        }
+
+        function resizeCanvas() {
+
+            const canvas = document.getElementById("unity-canvas");
+
+            const aspect = 9 / 16;
+
+            const windowWidth = window.innerWidth;
+            const windowHeight = getSafeViewportHeight();
+
+            const windowAspect = windowWidth / windowHeight;
+
+            let width;
+            let height;
+
+            if (windowAspect > aspect) {
+                height = windowHeight;
+                width = height * aspect;
+            } else {
+                width = windowWidth;
+                height = width / aspect;
+            }
+
+            canvas.style.width = width + "px";
+            canvas.style.height = height + "px";
+        }
+
+        window.addEventListener("load", resizeCanvas);
+        window.addEventListener("resize", resizeCanvas);
+
+        window.addEventListener("orientationchange", () => {
+            setTimeout(resizeCanvas, 300);
+        });
+
+        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+
+            const meta = document.createElement("meta");
+            meta.name = "viewport";
+            meta.content =
+                "width=device-width, height=device-height, initial-scale=1.0,  shrink-to-fit=yes";
+
+            document.head.appendChild(meta);
+        }
+
+        createUnityInstance(document.querySelector("#unity-canvas"), {
+            dataUrl: "Build/RoShooter.data",
+            frameworkUrl: "Build/RoShooter.framework.js",
+            codeUrl: "Build/RoShooter.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+
+            companyName: "Total Battery",
+            productName: "NightmareF",
+            productVersion: "1.7.4",
+
+            // matchWebGLToCanvasSize: false,
+            // devicePixelRatio: 1,
+        });
+
+    </script>
+</body>
+</html>
